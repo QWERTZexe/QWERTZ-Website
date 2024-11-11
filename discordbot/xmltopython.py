@@ -1,7 +1,4 @@
 from xml.etree import ElementTree as ET
-from tkinter import filedialog
-import tkinter as tk
-import json
 import sys
 import os
 import re
@@ -130,7 +127,8 @@ async def on_ready():
 if __name__ == '__main__':
 
     if len(sys.argv) < 2:
-
+        from tkinter import filedialog
+        import tkinter as tk
         if os.name == 'nt':
             from ctypes import windll
             windll.shcore.SetProcessDpiAwareness(1)
