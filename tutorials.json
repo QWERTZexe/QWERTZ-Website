@@ -1,0 +1,30 @@
+{
+    "PYTHON": [
+        {
+            "name": "Python 101",
+            "description": "Python basics",
+            "image": "https://cdn.icon-icons.com/icons2/2699/PNG/512/python_logo_icon_168886.png",
+            "slug": "python",
+            "featured": true,
+            "featuredOrder": 1
+        }
+    ],
+    "MINECRAFT PLUGIN": [
+        {
+            "name": "Java 101",
+            "description": "Java basics",
+            "image": "https://cdn.icon-icons.com/icons2/2415/PNG/512/java_original_wordmark_logo_icon_146459.png",
+            "slug": "java",
+            "featured": true,
+            "featuredOrder": 2
+        },
+        {
+            "name": "My first Plugin",
+            "description": "Create and build your first Spigot Plugin",
+            "image": "https://media.forgecdn.net/avatars/87/60/636212783415244754.png",
+            "slug": "plugin",
+            "featured": true,
+            "featuredOrder": 3
+        }
+    ]
+}

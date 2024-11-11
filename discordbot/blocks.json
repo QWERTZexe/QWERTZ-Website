@@ -1,0 +1,160 @@
+{
+    "categories": [
+        {
+            "name": "Important",
+            "colour": "#ffff00",
+            "blocks": [
+                {
+                    "type": "token",
+                    "tooltip": "Login with a token",
+                    "helpUrl": "",
+                    "message0": "Connect to discord with the token %1",
+                    "args0": [
+                      {
+                        "type": "field_input",
+                        "name": "NAME",
+                        "text": "YOUR_TOKEN",
+                        "check": "String"
+                      }
+                    ],
+                    "colour": 60,
+                    "inputsInline": true
+                  }
+            ]
+        },
+        {
+            "name": "Command",
+            "colour": "#DE3163",
+            "blocks": [
+                {
+                    "type": "command",
+                    "tooltip": "Create a command",
+                    "helpUrl": "",
+                    "message0": "Command /%1",
+                    "args0": [
+                      {
+                        "type": "field_input",
+                        "name": "NAME",
+                        "text": "hello",
+                        "check": "String"
+                      }
+                    ],
+                    "nextStatement": null,
+                    "colour": 0,
+                    "inputsInline": true
+                  },
+                  {
+                    "type": "respond",
+                    "message0": "Respond with message %1",
+                    "args0": [
+                        {
+                            "type": "field_input",
+                            "text": "Hello!",
+                            "name": "MESSAGE",
+                            "check": "String"
+                        }
+                    ],
+                    "previousStatement": null,
+                    "nextStatement": null,
+                    "colour": 0,
+                    "tooltip": "Respond to a command",
+                    "helpUrl": ""
+                }
+            ]
+        },
+        {
+            "name": "Trigger",
+            "colour": "#FFA500",
+            "blocks": [
+                {
+                    "type": "on_member_join",
+                    "message0": "When a member joins",
+                    "nextStatement": null,
+                    "colour": 30,
+                    "tooltip": "Triggered when a new member joins the server",
+                    "helpUrl": ""
+                },
+                {
+                    "type": "on_member_leave",
+                    "message0": "When a member leaves",
+                    "nextStatement": null,
+                    "colour": 30,
+                    "tooltip": "Triggered when a member leaves the server",
+                    "helpUrl": ""
+                }
+            ]
+        },
+        {
+            "name": "Message",
+            "colour": "#4CAF50",
+            "blocks": [
+                {
+                    "type": "send_message",
+                    "message0": "Send message %1 to channel %2",
+                    "args0": [
+                        {
+                            "type": "field_input",
+                            "text": "Hello!",
+                            "name": "MESSAGE",
+                            "check": "String"
+                        },
+                        {
+                            "type": "input_value",
+                            "name": "CHANNEL",
+                            "check": "Channel"
+                        }
+                    ],
+                    "previousStatement": null,
+                    "nextStatement": null,
+                    "colour": 160,
+                    "tooltip": "Send a message to a specific channel",
+                    "helpUrl": ""
+                }
+            ]
+        },
+        {
+            "name": "Channel",
+            "colour": "#2196F3",
+            "blocks": [
+                {
+                    "type": "channel_context",
+                    "message0": "Context Channel",
+                    "output": "Channel",
+                    "colour": 230,
+                    "tooltip": "Represents the channel from the context",
+                    "helpUrl": ""
+                },
+                {
+                    "type": "channel_by_id",
+                    "message0": "Channel with ID %1",
+                    "args0": [
+                        {
+                            "type": "field_input",
+                            "name": "CHANNEL_ID",
+                            "text": "1234567890",
+                            "check": "String"
+                        }
+                    ],
+                    "output": "Channel",
+                    "colour": 230,
+                    "tooltip": "Get a channel by its ID",
+                    "helpUrl": ""
+                }
+            ]
+        },
+        {
+            "name": "Member",
+            "colour": "#2196F3",
+            "blocks": [
+                {
+                    "type": "member",
+                    "message0": "Context Member",
+                    "output": "Context Member",
+                    "colour": 230,
+                    "tooltip": "Represents the member involved in the event",
+                    "helpUrl": ""
+                }
+            ]
+        }
+    ]
+}

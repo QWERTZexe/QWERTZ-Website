@@ -1,0 +1,150 @@
+.tutorial-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    text-align: center;
+}
+.tutorial-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-family: 'Orbitron', sans-serif;
+}
+.tutorial-content h2 {
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.tutorial-content h3 {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+}
+.tutorial-content p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+.tutorial-content pre {
+    background-color: #1e1e1e;
+    border-radius: 5px;
+    padding: 1rem;
+    overflow-x: auto;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.tutorial-content pre code {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9rem;
+    display: block;
+    padding-left: 1em;  /* Add left padding for indentation */
+    position: relative;
+    white-space: pre;   /* Preserve whitespace */
+    word-wrap: normal;  /* Prevent wrapping */
+    tab-size: 4;        /* Set tab size */
+    text-align: left;
+}
+
+/* Optional: Add line numbers */
+.tutorial-content pre code::before {
+    content: attr(data-line);
+    position: absolute;
+    left: 0;
+    padding-right: 0.5em;
+    color: #666;
+    text-align: right;
+    min-width: 2em;
+}
+.tutorial-content ul, .tutorial-content ol {
+    text-align: left;
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+}
+.tutorial-content img {
+    max-width: 100%;
+    height: auto;
+    margin: 1rem 0;
+}
+
+/* tutorial.css */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #0a0a0a; /* Match your website's background color */
+    color: #ffffff; /* Text color */
+    margin: 0;
+    padding: 20px;
+}
+
+.tutorial-content {
+    max-width: 800px; /* Centering and limiting width */
+    margin: 0 auto; /* Center horizontally */
+    text-align: center; /* Center text */
+}
+
+div h1 {
+    font-size: 2.5rem; /* Adjusted size */
+    color: var(--primary-color); /* Primary color from your theme */
+}
+
+#completion-message {
+    background-color: rgba(0, 123, 255, 0.8);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: none;
+    outline: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+#completion-message:hover {
+    background-color: rgba(0, 123, 255, 1);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    text-shadow: 
+        0 0 5px var(--primary-color),
+        0 0 10px var(--secondary-color),
+        0 0 15px var(--primary-color);
+}
+
+#completion-message::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+    z-index: -1;
+    filter: blur(5px);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: 7px;
+}
+
+#completion-message:hover::before {
+    opacity: 1;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+#completion-message:hover {
+    animation: pulse 1.5s infinite;
+}

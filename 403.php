@@ -1,0 +1,1 @@
+<?php $errorCode = "403"; $errorShort = "403 Forbidden"; $errorLong = "Access Denied! You do not have permission to view this page!";  include 'error.php'; ?>

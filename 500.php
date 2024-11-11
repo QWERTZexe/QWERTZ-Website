@@ -1,0 +1,1 @@
+<?php $errorCode = "500"; $errorShort = "500 Internal Server Error"; $errorLong = "Something went wrong on our end! Please try again later!";  include 'error.php'; ?>

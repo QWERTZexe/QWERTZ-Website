@@ -1,0 +1,88 @@
+{
+    "MINECRAFT MODS / PLUGINS": [
+    {
+        "name": "Quickjoin",
+        "description": "Quickly join any game on hypixel!",
+        "image": "https://raw.githubusercontent.com/QWERTZexe/Quickjoin/refs/heads/main/src/main/resources/QuickJoin.png",
+        "download": "https://modrinth.com/mod/quickjoin",
+        "featured": true,
+        "featuredOrder": 1
+    },
+    {
+        "name": "AutoGG Reimagined",
+        "description": "Automatically send GG messages after a game on Hypixel!",
+        "image": "https://raw.githubusercontent.com/QWERTZexe/AutoGG-Reimagined/refs/heads/main/src/main/resources/AutoGG.png",
+        "download": "https://modrinth.com/mod/autogg-reimagined",
+        "featured": true,
+        "featuredOrder": 2
+    },
+    {
+        "name": "Chat Highlighting",
+        "description": "Highlight keywords in the minecraft chat!",
+        "image": "https://raw.githubusercontent.com/QWERTZexe/Chat-Highlighting/refs/heads/main/src/main/resources/ChatHighlighting.png",
+        "download": "https://modrinth.com/mod/chat-highlighting"
+    },
+    {
+        "name": "QWERTZ Core",
+        "description": "Essentials for hosting events in minecraft",
+        "image": "https://core.qwertz.app/icon.png",
+        "download": "https://modrinth.com/plugin/qwertz-core",
+        "featured": true,
+        "featuredOrder": 3
+    }
+    ],
+    "DESKTOP APPS": [
+    {
+        "name": "QWERTZ Launcher",
+        "description": "The best minecraft launcher out there - Forge, Fabric, Vanilla",
+        "image": "https://raw.githubusercontent.com/QWERTZexe/QWERTZ-Launcher/refs/heads/main/icons/launcher.png",
+        "download": "https://github.com/QWERTZexe/QWERTZ-Launcher/releases/latest"
+    },
+    {
+        "name": "Logreader",
+        "description": "CMD Minecraft log reader",
+        "image": "https://qwertz.app/v1/downloads/logreader.png",
+        "download": "https://github.com/QWE RTZexe/Logreader/releases/latest"
+    },
+    {
+        "name": "LuxCore.py",
+        "description": "Client and Server for The popular Game of Universal Domination",
+        "image": "https://raw.githubusercontent.com/LuxDlx/LuxCore.py/refs/heads/main/assets/Icon.png",
+        "download": "https://github.com/LuxDlx/LuxCore.py"
+    },
+    {
+        "name": "ModernFileViewer",
+        "description": "A Modern yet simple file viewer which nearly supports all file types!",
+        "image": "https://raw.githubusercontent.com/QWERTZexe/ModernFileViewer/refs/heads/main/icons/ico.png",
+        "download": "https://github.com/QWERTZexe/ModernFileViewer"
+    }
+    ],
+    "MOBILE APPS": [
+    {
+        "name": "QWERTZ Calc",
+        "description": "Coming soon!",
+        "image": "https://qwertz.app/v1/downloads/mwstcalc/icon.png",
+        "download": ""
+    },
+    {
+        "name": "???",
+        "description": "Coming soon!",
+        "image": "../assets/question.png",
+        "download": ""
+    }
+    ],
+    "DISCORD BOTS": [
+    {
+        "name": "Simpl o' Bot",
+        "description": "Coming soon!",
+        "image": "../assets/question.png",
+        "download": ""
+    },
+    {
+        "name": "QWERTZ Network",
+        "description": "Coming soon!",
+        "image": "../assets/question.png",
+        "download": ""
+    }
+    ]
+}

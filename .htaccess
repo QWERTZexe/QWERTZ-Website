@@ -1,0 +1,16 @@
+# Enable Rewrite Engine
+RewriteEngine On
+RewriteBase /
+
+# Custom Error Pages
+ErrorDocument 404 /404.php
+ErrorDocument 403 /403.php
+ErrorDocument 500 /500.php
+
+# Redirect to 404 for non-existent files and directories
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule .* /404.php [L]
+
+# Mimetype for js
+AddType application/javascript .js
