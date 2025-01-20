@@ -28,7 +28,7 @@
                 <a href="<?php echo getLink('tutorials'); ?>">Tutorials</a>
                 <a href="<?php echo getLink('radio'); ?>">Radio</a>
                 <a href="<?php echo getLink('credits'); ?>">Credits</a>
-                <a href="<?php echo getLink('discordbot'); ?>">Discord Bot Builder</a>
+                <a href="<?php echo getLink('donate'); ?>">Donate</a>
             </nav>
         </div>
     </div>

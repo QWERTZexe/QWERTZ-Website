@@ -5,7 +5,7 @@
             <a href="<?php echo getLink('projects'); ?>">Projects</a>
             <a href="<?php echo getLink('tutorials'); ?>">Tutorials</a>
             <a href="<?php echo getLink('radio'); ?>">Radio</a>
-            <a href="<?php echo getLink('discordbot'); ?>">Bot Builder</a>
+            <a href="<?php echo getLink('donate'); ?>">Donate</a>
         </div>
         <div class="hamburger" id="hamburger">
             <i class="fas fa-bars"></i> <!-- Font Awesome Hamburger Icon -->

@@ -581,3 +581,115 @@ p {
         align-items: center; /* Center nav links */
     }
 }
+/* Donate Page Styles */
+
+#donate.content-section {
+    padding: 40px 0;
+    background-color: --background-color-transparent; /* Dark background */
+}
+
+#donate .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+#donate h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 2.5em;
+}
+
+#donate p {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 40px;
+    color: #ccc;
+    line-height: 1.6;
+}
+
+/* Crypto cards container */
+.crypto-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Individual crypto card */
+.crypto-card {
+    background-color: #222;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.crypto-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.crypto-card img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+}
+
+.crypto-card h3 {
+    margin-bottom: 15px;
+    color: #fff;
+    font-size: 1.5em;
+}
+
+/* Wallet address input and button */
+.wallet-address {
+    display: flex;
+    margin-top: 15px;
+}
+
+.wallet-address input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #444;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px 0 0 5px;
+    font-size: 0.9em;
+}
+
+.wallet-address button {
+    padding: 10px 15px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.wallet-address button:hover {
+    background-color: var(--secondary-color);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .crypto-card {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    #donate h2 {
+        font-size: 2em;
+    }
+
+    #donate p {
+        font-size: 0.9em;
+    }
+}
