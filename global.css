@@ -622,11 +622,12 @@ p {
 .crypto-card {
     background-color: #222;
     border-radius: 10px;
-    overflow: hidden;
+    overflow:visible;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     padding: 20px;
     width: 100%;
     max-width: 300px;
+    min-width: 300px;
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -683,6 +684,7 @@ p {
     .crypto-card {
         width: 100%;
         max-width: 300px;
+        min-width: 300px;
     }
 
     #donate h2 {
