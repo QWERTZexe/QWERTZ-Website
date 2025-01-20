@@ -685,6 +685,11 @@ p {
         width: 100%;
         max-width: 300px;
         min-width: 300px;
+        padding: 0px;
+    }
+
+    .crypto-cards {
+        padding: 0px;
     }
 
     #donate h2 {
